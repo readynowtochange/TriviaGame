@@ -1,4 +1,16 @@
 body{
-    background-color:#2D3047;
+    background-color:rgb(41, 134, 103);
+   color: rgb(255, 196, 0);
+   font-size: 18px;
+   
   }
   
+h1 {
+  font-size: 48px;
+  text-align: center;
+}
+
+p{
+  font-weight: bold;
+  font-size: 20px;
+}
