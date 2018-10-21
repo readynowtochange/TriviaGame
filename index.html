@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia Game</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    
+</head>
+<body>
+<h1> National Parks Quiz</h1>
+
+<button id="start" name="startGame" type="startGame" value="startGame-true">
+    Start Game
+  </button>
+
+  <div>Time left = <span id="timer"></span></div>
+
+<div id="timerStatus"> </div>
+
+
+
+<div id="questions">
+<div>
+    <p id="question1">1. What was the first national park created?</p>
+    
+       
+            <input type="radio" id="huey"
+                   name="q1" value="correct" checked />
+            <label for="huey">A. Yellowstone National Park</label>
+        
+            <input type="radio" id="dewey"
+                   name="q1" value="dewey" />
+            <label for="dewey">B. Yosemite National Park</label>
+
+        
+            <input type="radio" id="louie"
+                   name="q1" value="louie" />
+            <label for="louie">C. Glacier National Park</label>
+        
+</div>   
+<br/>
+<div>
+    <p id="question2">2. How many states do <em>not</em> have a national park?</p>
+    
+   
+            <input type="radio" id="huey"
+                   name="q2" value="huey" checked />
+            <label for="huey">A. 15</label>
+        
+            <input type="radio" id="dewey"
+                   name="q2" value="dewey" />
+            <label for="dewey">B.26</label>
+        
+            <input type="radio" id="louie"
+                   name="q2" value="louie" />
+            <label for="louie">C.20</label>               
+</div>  
+<br/>
+<div>
+    <p id="question3">3. How many national parks are an island?</p>
+    <input type="radio" id="huey"
+                   name="q3" value="huey" checked />
+            <label for="huey">A.Two</label>
+        
+            <input type="radio" id="dewey"
+                   name="q3" value="dewey" />
+            <label for="dewey">B.None
+            </label>
+
+        
+            <input type="radio" id="louie"
+                   name="q3" value="louie" />
+            <label for="louie">C. One</label>
+        
+</div>  
+<br/>
+<div>
+    <p id="question4">4. What is the name of Minnesota's national Park?</p>
+    <input type="radio" id="huey"
+                   name="q4" value="huey" checked />
+            <label for="huey">A. Boundary Waters National Park</label>
+        
+            <input type="radio" id="dewey"
+                   name="q4" value="dewey" />
+            <label for="dewey">B.Voyageurs National Park</label>
+
+        
+            <input type="radio" id="louie"
+                   name="q4" value="louie" />
+            <label for="louie">C. Isle Royle National Park</label>
+       
+</div>
+<br/>
+<div>
+    <p id="question5">5. Which state has the most national Parks?</p>
+    <input type="radio" id="huey"
+                   name="q5" value="huey" checked />
+            <label for="huey">A. California</label>
+        
+            <input type="radio" id="dewey"
+                   name="q5" value="dewey" />
+            <label for="dewey">B. Alaska</label>
+
+        
+            <input type="radio" id="louie"
+                   name="q5" value="louie" />
+            <label for="louie">C.Utah</label>
+   
+</div>
+<br/>
+<div class="button" id="showResults">Results</div>
+
+<button name="results" type="results" value="results-true">
+    Results
+  </button>
+
+
+
+<div id="resultsList">
+    <ol style="display: none" id="results">
+        <li>answer</li>
+        <li>answer</li>
+        <li>answer</li>
+        <li>answer</li>     
+        <li>answer</li>
+    </ol>
+</div>
+
+
+
+<br/>
+<button id="tryagain" name="tryAgain" type="tryAgain" value="tryAgain-true">
+    Try Again
+</button>
+
+    <!--Add javascript/app.js at bottom of HTML before </body>, by adding <script> tags.  -->
+
+<script>
+
+  $(document).ready(function(){
+
+
+});
+  
+  
+
+</script>
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
